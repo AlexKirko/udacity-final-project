@@ -1,6 +1,6 @@
 # Project
 
-This project is written in support to the article published [here](). It is 
+This project is written in support to the Medium post published [here](https://medium.com/@alexanderkirko/applying-nlp-outside-of-natural-language-user-identification-d86a4b320168). It is 
 created as a part of the Udacity Data Scientist course, but it can be used as
 an example of user identification through session data analysis.
 
