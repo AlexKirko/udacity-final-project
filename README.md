@@ -20,7 +20,7 @@ bag-of-sites and time series cross-validation.
 2. hyperopt module - install via `pip install hyperopt`
 
 *Important:* at the moment of writing this README, hyperopt has issues with one
-of the packages it depends upon. If you see `model 'bson' has no attribute 'BSON',
+of the packages it depends upon. If you see `model 'bson' has no attribute 'BSON'`,
 then you can circumvent the error this way:
 
 
