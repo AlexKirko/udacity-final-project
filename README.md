@@ -27,7 +27,6 @@ of the packages it depends upon. If you see this error:
 Then you can circumvent the error:
 
 `from hyperopt import base
-
 base.have_bson = False`
 
 When the issue is fixed, this will no longer be necessary.
