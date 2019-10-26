@@ -22,16 +22,14 @@ bag-of-sites and time series cross-validation.
 *Important:* at the moment of writing this README, hyperopt has issues with one
 of the packages it depends upon. If you see this error:
 
-`
-    model 'bson' has no attribute 'BSON'
-`
+`model 'bson' has no attribute 'BSON'`
 
 Then you can circumvent the error:
 
-`
+
     from hyperopt import base
     base.have_bson = False
-`
+
 
 When the issue is fixed, this will no longer be necessary.
 
