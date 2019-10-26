@@ -9,7 +9,7 @@ other users) by analysing what sites and when she visits. The analysis is perfor
 The task itself and the data used are taken from this [Kaggle competition](https://www.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2).
 While this is not the final version I used to submit my solution to the competition,
 it incorporates the most important tools to be used in user identification. It is
-also enough to beat the first baseline: ROC AUC 0.95343.
+also enough to beat the first baseline: ROC AUC above _0.95343_.
 
 I hope you find the project and it's accompanying article useful in learning about
 bag-of-sites and time series cross-validation. 
