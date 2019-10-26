@@ -17,7 +17,7 @@ bag-of-sites and time series cross-validation.
 # Requirements
 
 1. A full Anaconda installation
-2. hyperopt module - install via `pip install hyperopt`
+2. hyperopt - install via `pip install hyperopt`
 
 *Important:* at the moment of writing this README, hyperopt has issues with one
 of the packages it depends upon. If you see `model 'bson' has no attribute 'BSON'`,
@@ -27,7 +27,7 @@ then you can circumvent the error this way:
     from hyperopt import base
     base.have_bson = False
 
-This shouldn't be necessary after the `bson` module gets updated.
+This shouldn't be necessary after the `bson` package gets updated.
 
 # Installation and usage
 
